@@ -17,7 +17,7 @@ int GetPriority(char ch)
 	}
 }
 
-void ReadFormula(unsigned char Fisier[30], unsigned char *s, unsigned char **val)
+void ReadFormula(unsigned char Fisier[30], unsigned char *s, unsigned char **val) //Nu merge corect readul. Nu pot citit din fisier, in rest ok
 {
 	FILE* f;
 	unsigned char contor = -1 , valori[30] = { 0 };
